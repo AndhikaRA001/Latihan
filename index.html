@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 1</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+        #red{
+            background-color: red;
+            flex: 30%;
+            height: 100px;
+        }
+        #green{
+            background-color: green;
+            flex: 30%;
+            height: 100px;
+        }
+        #blue{
+            background-color: blue;
+            flex: 30%;
+            height: 100px;
+        }
+        #yellow{
+            background-color: yellow;
+            flex: 30%;
+            height: 100px;
+        }
+        #purple{
+            background-color: purple;
+            flex: 30%;
+            height: 100px;
+        }
+        #grey{
+            background-color: grey;
+            flex: 30%;
+            height: 100px;
+        }
+        @media only screen and (max-width: 600px) {
+        #red{
+            flex: 100%;
+            height: 130px;
+        }
+        #green{
+            flex: 100%;
+            height: 130px;
+        }
+        #blue{
+            flex: 100%;
+            height: 130px;
+        }
+        #yellow{
+            flex: 100%;
+            height: 130px;
+        }
+        #purple{
+            flex: 100%;
+            height: 130px;
+        }
+        #grey{
+            flex: 100%;
+            height: 130px;
+        }
+        }
+        @media only screen and (min-width: 600px) and (max-width: 960px) {
+        #red{
+            flex: 50%;
+            height: 130px;
+        }
+        #green{
+            flex: 50%;
+            height: 130px;
+        }
+        #blue{
+            flex: 50%;
+            height: 130px;
+        }
+        #yellow{
+            flex: 50%;
+            height: 130px;
+        }
+        #purple{
+            flex: 50%;
+            height: 130px;
+        }
+        #grey{
+            flex: 50%;
+            height: 130px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content" id="red"></div>
+        <div class="content" id="green"></div>
+        <div class="content" id="blue"></div>
+        <div class="content" id="yellow"></div>
+        <div class="content" id="purple"></div>
+        <div class="content" id="grey"></div>
+    </div>
+</body>
+</html>
